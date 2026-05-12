@@ -16,7 +16,7 @@ const NavBar = () => {
                 <li><Link href="/" className="text-[#0ca4b8] underline underline-offset-4">Home</Link></li>
                 <li><Link href="/destinations" className="hover:text-[#0ca4b8] transition-colors">Destinations</Link></li>
                 <li><Link href="/my-bookings" className="hover:text-[#0ca4b8] transition-colors">My Bookings</Link></li>
-                <li><Link href="/admin" className="hover:text-[#0ca4b8] transition-colors">Admin</Link></li>
+                <li><Link href="/add-destination" className="hover:text-[#0ca4b8] transition-colors">Add Destination</Link></li>
             </ul>
 
             {/* Center – logo (absolute on md+, static on mobile) */}
@@ -59,7 +59,7 @@ const NavBar = () => {
                     <Link href="/" onClick={() => setMenuOpen(false)} className="text-[#0ca4b8]">Home</Link>
                     <Link href="/destinations" onClick={() => setMenuOpen(false)}>Destinations</Link>
                     <Link href="/my-bookings" onClick={() => setMenuOpen(false)}>My Bookings</Link>
-                    <Link href="/admin" onClick={() => setMenuOpen(false)}>Admin</Link>
+                    <Link href="/add-destination" onClick={() => setMenuOpen(false)}>Add Destination</Link>
                     <hr className="border-gray-200" />
                     <Link href="/profile" onClick={() => setMenuOpen(false)} className="flex items-center gap-1"><FiUser size={15} /> Profile</Link>
                     <Link href="/login" onClick={() => setMenuOpen(false)}>Login</Link>
